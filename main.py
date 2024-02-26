@@ -1,8 +1,8 @@
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import random
-auth_manager = SpotifyOAuth(client_id="d94208855e9d40c5acad57e6b1e5a0ba",
-                            client_secret="a49231e00d19437d82bca7dbaae6f5bc",
+auth_manager = SpotifyOAuth(client_id="client_id",
+                            client_secret="client_secret",
                             redirect_uri="http://google.com/",
                             scope="user-library-read user-top-read playlist-modify-public user-follow-read")
 class SpotifyBot:
